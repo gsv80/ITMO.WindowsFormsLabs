@@ -32,6 +32,8 @@
             this.labelEnterANum = new System.Windows.Forms.Label();
             this.buttonStart = new System.Windows.Forms.Button();
             this.resultRichTextBox = new System.Windows.Forms.RichTextBox();
+            this.buttonClear = new System.Windows.Forms.Button();
+            this.buttonCheck = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // MaxValueText
@@ -41,6 +43,7 @@
             this.MaxValueText.Size = new System.Drawing.Size(246, 31);
             this.MaxValueText.TabIndex = 0;
             this.MaxValueText.Text = "N";
+            this.MaxValueText.MouseEnter += new System.EventHandler(this.MaxValueText_MouseEnter);
             // 
             // labelEnterANum
             // 
@@ -69,11 +72,33 @@
             this.resultRichTextBox.TabIndex = 3;
             this.resultRichTextBox.Text = "";
             // 
+            // buttonClear
+            // 
+            this.buttonClear.Location = new System.Drawing.Point(12, 716);
+            this.buttonClear.Name = "buttonClear";
+            this.buttonClear.Size = new System.Drawing.Size(1050, 78);
+            this.buttonClear.TabIndex = 4;
+            this.buttonClear.Text = "Clear result";
+            this.buttonClear.UseVisualStyleBackColor = true;
+            this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click);
+            // 
+            // buttonCheck
+            // 
+            this.buttonCheck.Location = new System.Drawing.Point(807, 184);
+            this.buttonCheck.Name = "buttonCheck";
+            this.buttonCheck.Size = new System.Drawing.Size(209, 54);
+            this.buttonCheck.TabIndex = 5;
+            this.buttonCheck.Text = "Check Status";
+            this.buttonCheck.UseVisualStyleBackColor = true;
+            this.buttonCheck.Click += new System.EventHandler(this.buttonCheck_Click);
+            // 
             // EratoAlgForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1074, 722);
+            this.ClientSize = new System.Drawing.Size(1074, 827);
+            this.Controls.Add(this.buttonCheck);
+            this.Controls.Add(this.buttonClear);
             this.Controls.Add(this.resultRichTextBox);
             this.Controls.Add(this.buttonStart);
             this.Controls.Add(this.labelEnterANum);
@@ -92,6 +117,8 @@
         private System.Windows.Forms.Label labelEnterANum;
         private System.Windows.Forms.Button buttonStart;
         private System.Windows.Forms.RichTextBox resultRichTextBox;
+        private System.Windows.Forms.Button buttonClear;
+        private System.Windows.Forms.Button buttonCheck;
     }
 }
 

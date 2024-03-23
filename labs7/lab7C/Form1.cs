@@ -51,8 +51,31 @@ namespace lab7C
         private async void buttonStart_Click(object sender, EventArgs e)
         {
             
-            
+            await Task.Run(() => resultRichTextBox.Text= GoButt());
 
+        }
+
+        private void buttonClear_Click(object sender, EventArgs e)
+        {
+            resultRichTextBox.Text = string.Empty;
+            MaxValueText.Text = "Enter new value";
+        }
+
+        private void MaxValueText_MouseEnter(object sender, EventArgs e)
+        {
+            MaxValueText.Text = string.Empty;
+        }
+
+        private void buttonCheck_Click(object sender, EventArgs e)
+        {
+            if(resultRichTextBox.Text == String.Empty) 
+            { 
+                MessageBox.Show("in proccess..");
+            }
+            else
+            {
+                MessageBox.Show("Ready.");
+            }
         }
     }
 }

@@ -83,6 +83,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab7C", "labs7\lab7C\lab7C.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsCalculator", "\\Mac\Home\Downloads\Calc_Starter\WindowsCalculator.csproj", "{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Final Task Calculator", "Final Task Calculator", "{89F2155A-12D9-4B1D-A948-A9E5ED55FDD9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -258,6 +260,7 @@ Global
 		{C99849CD-4F59-436D-B641-91DC5346156B} = {1105F266-67B9-42FA-BE9B-689456C012C0}
 		{7D26FB8B-2493-44C9-A91E-55C480CD8550} = {1105F266-67B9-42FA-BE9B-689456C012C0}
 		{1F63C34E-689F-4908-B7D8-A0D58F29DBE2} = {1105F266-67B9-42FA-BE9B-689456C012C0}
+		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F} = {89F2155A-12D9-4B1D-A948-A9E5ED55FDD9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {19204480-9AA5-44E7-A3A4-4DB9AE707E92}

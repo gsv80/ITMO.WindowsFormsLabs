@@ -81,6 +81,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab3", "labs7\lab3\lab3.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab7C", "labs7\lab7C\lab7C.csproj", "{1F63C34E-689F-4908-B7D8-A0D58F29DBE2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsCalculator", "\\Mac\Home\Downloads\Calc_Starter\WindowsCalculator.csproj", "{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -215,6 +217,10 @@ Global
 		{1F63C34E-689F-4908-B7D8-A0D58F29DBE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F63C34E-689F-4908-B7D8-A0D58F29DBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F63C34E-689F-4908-B7D8-A0D58F29DBE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2FD2DF4-4FE9-491F-960B-4BFB55A6632F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
